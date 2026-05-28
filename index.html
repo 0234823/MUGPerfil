@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil Profesional - Manuel Urtusuástegui</title>
+
+    <style id="estilos-perfil">
+      :root {
+        --color-fondo: #f4f7f6;
+        --color-texto: #333;
+        --color-acento: #2563eb;
+        --color-arena: #eaddcf;
+        --color-tarjeta: #ffffff;
+        --color-lista: #f9fafb;
+        --color-borde: #cbd5e1;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: var(--color-fondo);
+        color: var(--color-texto);
+        line-height: 1.6;
+        padding: 40px 20px;
+        margin: 0;
+      }
+
+      .contenedor {
+        max-width: 800px;
+        margin: 0 auto;
+        background: var(--color-tarjeta);
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Estilos de la foto y caja arena */
+      .caja-foto {
+        padding: 30px;
+        border-radius: 15px;
+        text-align: center;
+      }
+
+      .caja-foto img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid var(--color-tarjeta);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      h1 {
+        text-align: center;
+        color: #1a202c;
+        margin: 15px 0 5px;
+        font-size: 28px;
+      }
+
+      h2 {
+        text-align: center;
+        color: var(--color-acento);
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
+
+      h3 {
+        color: #1a202c;
+        border-left: 5px solid var(--color-acento);
+        padding-left: 15px;
+        margin-top: 35px;
+      }
+
+      /* Estilos de las listas */
+      .seccion-lista {
+        list-style: none;
+        padding: 0;
+      }
+
+      .item-lista {
+        background: var(--color-lista);
+        margin-bottom: 10px;
+        padding: 15px 20px;
+        border-radius: 8px;
+        border-left: 4px solid var(--color-borde);
+      }
+
+      .item-lista ul {
+        padding-left: 20px;
+        margin: 0;
+      }
+
+      .item-lista li {
+        margin-bottom: 5px;
+      }
+
+      hr {
+        border: 0;
+        height: 1px;
+        background: var(--color-borde);
+        margin: 30px 0;
+      }
+
+      /* Formulario de contacto */
+      .formulario-contacto {
+        background: var(--color-lista);
+        padding: 25px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border: 1px solid var(--color-borde);
+      }
+
+      .formulario-contacto label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 600;
+      }
+
+      .formulario-contacto input,
+      .formulario-contacto textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid var(--color-borde);
+        border-radius: 5px;
+        font-family: inherit;
+      }
+
+      .btn-enviar {
+        background-color: var(--color-acento);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+      }
+
+      .btn-enviar:hover {
+        background-color: #1d4ed8;
+      }
+
+      /* Pie de página y Toggle */
+      .footer {
+        text-align: center;
+        margin-top: 40px;
+      }
+
+      .enlace-correo {
+        color: var(--color-acento);
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .btn-toggle {
+        background-color: #1a202c;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <div class="caja-foto">
+        <img src="hs manu.png" alt="Fotografía de Manuel Urtusuástegui" />
+      </div>
+
+      <h1>ING. MANUEL URTUSUÁSTEGUI GUERRERO</h1>
+      <h2>Ingeniero / Diseñador</h2>
+
+      <hr />
+
+      <h3>Perfil</h3>
+      <ul class="seccion-lista">
+        <li class="item-lista">
+          Profesional en innovación y diseño por la Universidad Panamericana,
+          con experiencia en la enseñanza de diseño, dibujo y artes. Me
+          especializo en transformar ideas en soluciones visuales y
+          conceptuales, combinando pensamiento creativo con enfoque práctico.
+          Destaco por mi capacidad para resolver problemas, comunicar conceptos
+          de forma clara y generar propuestas originales que conectan con las
+          personas. Busco aportar valor a través de la creatividad aplicada y la
+          innovación.
+        </li>
+      </ul>
+
+      <h3>Estudios</h3>
+      <ul class="seccion-lista">
+        <li class="item-lista">
+          <ul>
+            <li>Preparatoria Cedros Norte (2017-2020)</li>
+            <li>Universidad Panamericana (2020-2025)</li>
+            <li>Especialidad en Diseño Interactivo (2026)</li>
+            <li>Diplomado STEAM</li>
+            <li>Diplomado Solid Works</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>Experiencia profesional</h3>
+      <ul class="seccion-lista">
+        <li class="item-lista">
+          <ul>
+            <li>Profesor de Dibujo Técnico - Cedros Norte</li>
+            <li>Profesor de Educación Estética y Artística - Cedros Norte</li>
+            <li>Profesor de Diseño 3D y Modelado básico - Cedros Norte</li>
+            <li>Coordinador de programación y Sistemas - SitesPay</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>Contáctame</h3>
+      <form
+        class="formulario-contacto"
+        action="mailto:manuelurtu15@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="nombre">Tu Nombre:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="Nombre"
+          placeholder="Ej. Juan Pérez"
+          required
+        />
+
+        <label for="correo">Tu Correo Electrónico:</label>
+        <input
+          type="email"
+          id="correo"
+          name="Correo"
+          placeholder="ejemplo@correo.com"
+          required
+        />
+
+        <label for="comentario">Comentarios:</label>
+        <textarea
+          id="comentario"
+          name="Comentario"
+          rows="4"
+          placeholder="Escribe tu mensaje aquí..."
+          required
+        ></textarea>
+
+        <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+      </form>
+
+      <div class="footer">
+        <p>
+          O envíame un correo directo
+          <a href="mailto:manuelurtu15@gmail.com" class="enlace-correo">Aqui</a>
+        </p>
+        <button class="btn-toggle" onclick="toggleStyles()">
+          Apagar / Prender Estilos
+        </button>
+      </div>
+    </div>
+
+    <script>
+      function toggleStyles() {
+        const hojaEstilos = document.getElementById("estilos-perfil");
+        // Si los estilos están desactivados (media = 'none'), los activamos (media = '')
+        if (hojaEstilos.media === "none") {
+          hojaEstilos.media = "";
+        } else {
+          // De lo contrario, los desactivamos
+          hojaEstilos.media = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
